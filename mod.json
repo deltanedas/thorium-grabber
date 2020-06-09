@@ -3,6 +3,7 @@
 	"displayName": "[#79a3c7]Thorium [#00aaff]Grabber[]",
 	"author": "DeltaNedas",
 	"description": "Adds a button to quickly grab thorium to fuel a nuke or new reactor.\n[stat]Requires [#00aaff]DeltaNedas/ui-lib[]."
-	"version": "1.0.0",
+	"version": "1.0.1",
+	"dependencies": ["ui-lib"],
 	"hidden": true
 }
