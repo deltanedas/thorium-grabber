@@ -14,9 +14,14 @@
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
-var ui = require("ui-lib/library");
+
+(() => {
+
+const ui = require("ui-lib/library");
 
 ui.addButton("thorium-grabber", Items.thorium, () => {
 	const core = Vars.state.teams.cores(Vars.player.team).first().tile;
 	Call.requestItem(Vars.player, core, Items.thorium, 15);
 });
+
+})();
